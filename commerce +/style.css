@@ -1,0 +1,541 @@
+
+/* general */
+
+*{
+	margin: 0;
+	padding:0;
+	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+body{
+	font-family: Arial , sans-serif;
+	font-size: 16px;
+	background-color: rgba(216, 204, 135, 0.932);
+
+}
+h1{
+	font-family:serif;
+	font-size: 40px;
+	color: navajowhite;
+	letter-spacing: 2px;
+}
+h2{
+	color: beige;
+	font-size: 39px;
+}
+h3
+{
+	font-size: 30px;
+}
+h4{
+	font-size: 24px;
+	color: #444;
+}
+p{
+	text-align: 20px;
+	color: #777;
+}
+.T{
+	width: 1040px;
+	margin:8px auto; ;
+	padding: 0 2px;
+
+}
+.titre
+{
+	border: 1px rgba(94, 184, 10, 0.932);
+	text-shadow: 6px 0 0 royalblue;
+}
+ul{
+	list-style: none;
+	
+}
+.couleur{
+	color: rebeccapurple;
+}
+a{
+	text-decoration: none;
+	color:royalblue ;
+}
+.espase
+{
+	clear: both;
+	
+}
+small
+{
+	font-size: 15px;
+	font-style: italic;
+}
+
+
+/* header */
+header{
+	height:150px;
+	border-radius: 9px;
+	
+}
+header h1
+{
+	float: left;
+	margin-top: 32px;
+}
+header nav{
+	float: right;
+	margin-top: 50px;
+}
+header nav ul li 
+{ 
+	float:left;
+	display: inline-block;
+	
+
+}
+header nav ul li a
+{
+	text-transform: uppercase;
+	font-weight: bold;
+	margin-right: 20px;
+}
+/* premie section d image */
+
+#t{
+	height: 380px;
+	background: url("font.jpg"); center;
+	border-radius: 7px;
+}
+#t h2 {
+	font-family: normal ;
+	text-transform: uppercase;
+	text-align: center;
+	padding: 140px 0 40px 0;
+	margin-bottom: 20px ;
+}
+.bouton
+{
+	display:block;
+	width: 120px;
+	height: 50px;
+	background: firebrick;
+	color: #fff;
+	font-size: 20px;
+	margin: 0 auto;
+	line-height: 50px;
+	text-align: center;
+	border-radius: 8px;
+
+}
+.bouton:hover
+{
+	background:blue;
+}
+/* organisation*/
+#r ul
+{
+	margin: 80px 0;
+
+
+}
+#r h4{
+	text-transform: uppercase;
+	margin-bottom: 20px;
+}
+#r p
+{
+	margin-bottom: 20px;
+}
+#r ul li
+{
+	width: 300px;
+	float: left;
+	padding-top: 140px ;
+	text-align: center;
+	margin-right: 14px;
+
+}
+#achette
+{
+	background: url("v.png")  no-repeat top center ;
+
+}
+#vendre
+{
+	background: url("R.png")  no-repeat top center;
+
+}
+#echange
+{
+    background: url("R.png") no-repeat top center  ;
+}
+#service
+{
+	background: url("E.png") no-repeat top center;
+
+
+}
+/* nos article exposition  */
+
+#section
+{
+	background-color: darkgrey;
+	padding: 70px 0;
+	display: flex;
+	flex-direction:column-reverse;
+	border-radius: 10px;
+	text-align: center;
+	 
+	
+}
+#section article
+{
+	width: 400px;
+	height: 220px;
+	float: left;
+	border-radius: 10px;
+}
+#section p
+{
+	text-align: center;
+	margin-bottom: 15px;
+}
+li:hover{
+	color: tomato;
+	background-color: rgb(15, 214, 198);
+
+}
+/* classement des article  */
+#s1 
+{
+	height: 200px;
+	width: 150px;
+	
+}
+#section article:nth-child(1)
+{
+
+	margin-right: 20px;
+	margin-top: 10px;
+	margin-left: 15px;
+}
+#section article:nth-child(2)
+{
+
+	margin-right: 20px;
+	margin-top: 10px;
+}
+#section article:nth-child(3)
+{
+
+	margin-right: 20px;
+	margin-top: 10px;
+}
+#section article:nth-child(4)
+{
+
+	margin-right: 20px;
+	margin-top: 10px;
+	margin-left: 15px;
+}
+#section article:nth-child(5)
+{
+
+	margin-right: 20px;
+	margin-top: 10px;
+}
+#section article:nth-child(6)
+{
+
+	margin-right: 20px;
+	margin-top: 10px;
+}
+
+#section article:nth-child(7)
+{
+
+	margin-right: 20px;
+	margin-top: 10px;
+	margin-left: 15px;
+}
+
+#section article:nth-child(8)
+{
+
+	margin-right: 20px;
+	margin-top: 10px;
+}
+
+#section article:nth-child(9)
+{
+
+	margin-right: 20px;
+	margin-top: 10px;
+}
+
+#section article:nth-child(10)
+{
+
+	margin-right: 20px;
+	margin-top: 10px;
+	margin-left: 15px;
+}
+
+#section article:nth-child(11)
+{
+
+	margin-right: 20px;
+	margin-top: 10px;
+}
+
+#section article:nth-child(12)
+{
+
+	margin-right: 20px;
+	margin-top: 10px;
+}
+
+#section article:nth-child(13)
+{
+
+	margin-right: 20px;
+	margin-top: 10px;
+	margin-left: 15px;
+}
+
+#section article:nth-child(14)
+{
+
+	margin-right: 20px;
+	margin-top: 10px;
+	margin-left: 15px;
+	
+	
+}
+
+#section article:nth-child(15)
+{
+
+	margin-right: 20px;
+	margin-top: 10px;
+}
+
+#section article:nth-child(16)
+{
+
+	margin-right: 20px;
+	margin-top: 10px;
+}
+#section article:nth-child(17)
+{
+
+	margin-right: 20px;
+	margin-top: 10px;
+	margin-left: 14px;
+}
+#section article:nth-child(18)
+{
+
+	margin-right: 20px;
+	margin-top: 10px;
+	margin-bottom: 15px;
+	margin-left: 14px;
+}
+
+#section article:nth-child(19)
+{
+
+	margin-right: 20px;
+	margin-top: 10px;
+	margin-left: 14px;
+
+}
+
+
+#A
+{
+	margin-left: 20px;
+}
+
+
+article h4
+{
+	border-bottom: 1px solid rgb(31, 203, 247);
+	padding-bottom: 10px;
+	text-transform: uppercase;
+	margin-bottom: 10px;
+	text-align: center;
+}
+/*contact*/
+#v
+{
+	padding: 60px 0;
+	text-align: center;
+}
+#v h3
+{
+  width: 400px;
+  margin: 0px auto 20px auto ;
+  border-bottom: 1px solid rebeccapurple;
+  padding-bottom:20px;
+}
+form
+{
+	margin: 60px 0 20px 0;
+}
+label
+{ 
+	font-weight: bold;
+	font-size: 20px;
+	margin-right: 10px ;
+	color: #777;
+}
+input[type="text"]
+{
+	padding: 10px;
+	font-size: 20px;
+	margin-right: 20px;
+	border: 2px solid black;
+	border-radius: 3px;
+}
+
+.bouton2
+{
+	color:#fff;
+	font-size: 20px;
+	font-weight: bold;
+	padding: 6px 11px;
+	background-color: #dda302;
+	border-style: none;
+	border-radius: 3px;
+
+} 
+.bouton2:hover
+{
+	color:#fff;
+	background-color: rgb(16, 198, 214);
+}
+.B
+{
+   height: 92%;
+   width: 150px;
+   background:rgba(255, 255, 255, 0.60);
+   padding: 10px;
+   border-radius: 10px;
+}
+/*footer*/
+
+footer
+{
+	height: 260px;
+	background-color:black;
+
+}
+footer h1
+{
+	color: #fff;
+	text-align: center;
+	padding-top: 80px;
+}
+.footer
+{
+	text-align: center;
+	font-weight: bold;
+	padding-top: 30px;
+	color: #777;
+} 
+.nos
+{
+	text-align:left;
+	font-weight: bold;
+	padding:20px 0 20px 20px;
+	margin-top: 20;
+	color: #777;
+	text-transform: uppercase;
+}
+.espert
+{
+
+	text-align:right;
+	font-weight: bold;
+	padding:20px 0 20px 20px;
+	margin:20px 0 20px 20px;
+	color: #777;
+	text-transform: uppercase;
+	
+}
+/* LISTE DEROULENT  */
+#nav{
+    width: 100%;
+    margin: 16px 10px 10px 10px;
+    background-color: rgba(255, 255, 255, 0.534);
+    position: sticky;
+    top: 0px;
+	border-radius: 30px;
+}
+
+#nav ul{
+    list-style-type: none;
+}
+
+#nav ul li{
+    float: left;
+    width: 25%;
+    text-align: center;
+    position: relative;
+}
+#nav ul::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+#nav a{
+    display: block;
+    text-decoration: none;
+    color: black;
+    border-bottom: 2px solid transparent;
+    padding: 10px 0px;
+}
+
+#nav a:hover{
+    color: orange;
+    border-bottom: 2px solid gold;
+}
+
+.sous{
+    display: none;
+    box-shadow: 0px 1px 2px rgb(236, 210, 210)204, 204, 204);
+    background-color: rgb(87, 0, 122);
+    position: absolute;
+    width: 100%;
+    z-index: 1000;
+	border-radius: 10px;
+
+}
+#nav > ul li:hover .sous{
+    display: block;
+}
+.sous li{
+    float: none;
+    width: 100%;
+    text-align: left;
+}
+.sous a{
+    padding: 10px;
+    border-bottom: none;
+}
+.sous a:hover{
+    border-bottom: none;
+    background-color: RGBa(200,200,200,0.1);
+}
+.deroulant > a::after{
+    content:" ▼";
+    font-size: 12px;
+}
+
+.conteneur{
+  margin: 50px 20px;
+  height: 1500px;
+}
+.special{
+	height: 290px;
+	justify-content: center;
+}
